@@ -128,7 +128,7 @@ const uint64_t P2P_DEFAULT_INVOKE_TIMEOUT                    = 60 * 2 * 1000; //
 const size_t   P2P_DEFAULT_HANDSHAKE_INVOKE_TIMEOUT          = 5000;          // 5 seconds
 const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "";
 
-const char* const SEED_NODES[] = { "192.168.56.1:17236" };
+const char* const SEED_NODES[] = { "192.168.56.1:20334" , "192.168.56.101:20334" };
 
 
 struct CheckpointData {
