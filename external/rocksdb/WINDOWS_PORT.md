@@ -1,4 +1,4 @@
-## Microsoft Contribution Notes
+# Microsoft Contribution Notes
 
 ## Contributors
 * Alexander Zinoviev https://github.com/zinoale
