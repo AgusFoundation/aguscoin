@@ -1,3 +1,5 @@
+### Linux (Debian/Ubuntu/Mint)
+
 ##### Prerequisites
 
 - You will need the following packages: boost (1.55 or higher), rocksdb, cmake, git, gcc (4.9 or higher), g++ (4.9 or higher), make, and python. Most of these should already be installed on your system.
@@ -19,8 +21,9 @@ sudo apt-get install librocksdb-dev
 
 The binaries will be in `/build/release/src` after compilation is complete.
 
+---------------------------------------------------------------------------
 
-#### Apple
+### Apple
 
 ##### Prerequisites
 
@@ -36,7 +39,9 @@ The binaries will be in `/build/release/src` after compilation is complete.
 
 The binaries will be in `/build/release/src` after compilation is complete.
 
-#### Windows 10
+---------------------------------------------------------------------------
+
+### Windows 10
 
 ##### Prerequisites
 - Install [Visual Studio 2017 Community Edition](https://www.visualstudio.com/thank-you-downloading-visual-studio/?sku=Community&rel=15&page=inlineinstall)
