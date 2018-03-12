@@ -14,10 +14,11 @@ sudo apt-get update
 sudo apt-get install librocksdb-dev
 ```
 ##### Building
-
-- `git clone https://github.com/AgusFoundation/aguscoin.git`
-- `cd aguscoin`
-- `mkdir build && cd build && cmake .. && make`
+```
+git clone https://github.com/AgusFoundation/aguscoin.git
+cd aguscoin
+mkdir build && cd build && cmake .. && make
+```
 
 The binaries will be in `/build/release/src` after compilation is complete.
 
@@ -32,10 +33,11 @@ The binaries will be in `/build/release/src` after compilation is complete.
 - Install XCode and Developer Tools.
 
 ##### Building
-
-- `git clone https://github.com/AgusFoundation/aguscoin.git`
-- `cd aguscoin`
-- `mkdir build && cd build && cmake .. && make`
+```
+git clone https://github.com/AgusFoundation/aguscoin.git
+cd aguscoin
+mkdir build && cd build && cmake .. && make
+```
 
 The binaries will be in `/build/release/src` after compilation is complete.
 
@@ -51,11 +53,18 @@ The binaries will be in `/build/release/src` after compilation is complete.
 ##### Building
 
 - From the start menu, open 'x64 Native Tools Command Prompt for vs2017'.
-- `cd <your_aguscoin_directory>`
-- `mkdir build`
-- `cd build`
-- Set the PATH variable for cmake: ie. `set PATH="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin";%PATH%`
-- `cmake -G "Visual Studio 14 Win64" .. -DBOOST_ROOT=C:/local/boost_1_59_0` (Or your boost installed dir.)
-- `MSBuild ByteCoin.sln /p:Configuration=Release /m`
+```
+cd <your_aguscoin_directory>
+mkdir build
+cd build
+```
+
+- Set the PATH variable for cmake: ie.
+```
+set PATH="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin";%PATH%
+cmake -G "Visual Studio 14 Win64" .. -DBOOST_ROOT=C:/local/boost_1_59_0
+MSBuild ByteCoin.sln /p:Configuration=Release /m
+```
+
 - If all went well, it will complete successfully, and you will find all your binaries in the '..\build\src\Release' directory.
 - Additionally, a `.sln` file will have been created in the `build` directory. If you wish to open the project in Visual Studio with this, you can.
