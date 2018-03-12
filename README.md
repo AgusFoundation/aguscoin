@@ -66,5 +66,4 @@ cmake -G "Visual Studio 14 Win64" .. -DBOOST_ROOT=C:/local/boost_1_59_0
 MSBuild ByteCoin.sln /p:Configuration=Release /m
 ```
 
-- If all went well, it will complete successfully, and you will find all your binaries in the '..\build\src\Release' directory.
-- Additionally, a `.sln` file will have been created in the `build` directory. If you wish to open the project in Visual Studio with this, you can.
+You will find all your binaries in the '..\build\src\Release' directory.
