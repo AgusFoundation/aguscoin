@@ -10,7 +10,7 @@ sudo apt-get install librocksdb-dev
 ```
 ##### Building
 
-- `git clone https://github.com/AgusFoundation/aguscoin`
+- `git clone https://github.com/AgusFoundation/aguscoin.git`
 - `cd aguscoin`
 - `mkdir build && cd build && cmake .. && make`
 
@@ -27,7 +27,7 @@ The binaries will be in `/build/release/src` after compilation is complete.
 
 ##### Building
 
-- `git clone https://github.com/AgusFoundation/aguscoin`
+- `git clone https://github.com/AgusFoundation/aguscoin.git`
 - `cd aguscoin`
 - `mkdir build && cd build && cmake .. && make`
 
