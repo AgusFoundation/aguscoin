@@ -22,6 +22,17 @@ mkdir build && cd build && cmake .. && make
 
 The binaries will be in `/build/release/src` after compilation is complete.
 
+##### Running Daemon
+
+```
+./aguscoind
+```
+
+##### Running Wallet
+```
+./agus-wallet
+```
+
 ---------------------------------------------------------------------------
 
 ### Apple
