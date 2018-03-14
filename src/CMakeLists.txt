@@ -57,7 +57,7 @@ add_executable(ConnectivityTool ${ConnectivityTool})
 add_executable(Daemon ${Daemon})
 add_executable(SimpleWallet ${SimpleWallet})
 add_executable(PaymentGateService ${PaymentGateService})
-# add_executable(Miner ${Miner})
+add_executable(Miner ${Miner})
 
 if (MSVC)
   target_link_libraries(System ws2_32)
@@ -73,7 +73,7 @@ target_link_libraries(ConnectivityTool CryptoNoteCore Common Logging Crypto P2P 
 target_link_libraries(Daemon P2P Rpc Serialization System Http Logging CryptoNoteCore Crypto Common upnpc-static rocksdblib ${Boost_LIBRARIES} )
 target_link_libraries(SimpleWallet Wallet NodeRpcProxy Transfers Rpc P2P upnpc-static Http Serialization CryptoNoteCore System Logging Common Crypto ${Boost_LIBRARIES})
 target_link_libraries(PaymentGateService PaymentGate JsonRpcServer Wallet NodeRpcProxy Transfers P2P CryptoNoteCore Crypto Rpc Http Serialization System Logging Common InProcessNode upnpc-static BlockchainExplorer rocksdblib ${Boost_LIBRARIES})
-# target_link_libraries(Miner CryptoNoteCore Rpc Serialization System Http Logging Common Crypto ${Boost_LIBRARIES})
+target_link_libraries(Miner CryptoNoteCore Rpc Serialization System Http Logging Common Crypto ${Boost_LIBRARIES})
 
 add_dependencies(Rpc version)
 
@@ -87,4 +87,4 @@ set_property(TARGET ConnectivityTool PROPERTY OUTPUT_NAME "connectivity_tool")
 set_property(TARGET Daemon PROPERTY OUTPUT_NAME "aguscoind")
 set_property(TARGET SimpleWallet PROPERTY OUTPUT_NAME "agus-wallet-cli")
 set_property(TARGET PaymentGateService PROPERTY OUTPUT_NAME "agus-wallet-rpc")
-# set_property(TARGET Miner PROPERTY OUTPUT_NAME "miner")
+set_property(TARGET Miner PROPERTY OUTPUT_NAME "miner")
