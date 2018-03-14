@@ -85,6 +85,6 @@ add_dependencies(P2P version)
 
 set_property(TARGET ConnectivityTool PROPERTY OUTPUT_NAME "connectivity_tool")
 set_property(TARGET Daemon PROPERTY OUTPUT_NAME "aguscoind")
-set_property(TARGET SimpleWallet PROPERTY OUTPUT_NAME "agus-wallet-cli")
-set_property(TARGET PaymentGateService PROPERTY OUTPUT_NAME "agus-wallet-rpc")
+set_property(TARGET SimpleWallet PROPERTY OUTPUT_NAME "simplewallet")
+set_property(TARGET PaymentGateService PROPERTY OUTPUT_NAME "walletd")
 set_property(TARGET Miner PROPERTY OUTPUT_NAME "miner")
