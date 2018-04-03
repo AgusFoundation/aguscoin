@@ -73,7 +73,13 @@ cd build
 - Set the PATH variable for cmake: ie.
 ```
 set PATH="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin";%PATH%
+```
+- run cmake
+```
 cmake -G "Visual Studio 14 Win64" .. -DBOOST_ROOT=C:/local/boost_1_59_0
+```
+- finally build it
+```
 MSBuild ByteCoin.sln /p:Configuration=Release /m
 ```
 
