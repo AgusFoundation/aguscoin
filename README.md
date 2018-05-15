@@ -1,3 +1,5 @@
+## THIS VERSION IS DEPRECATED AND THERE WILL BE NO UPDATES! NEW VERSION (3.0) [HERE](https://github.com/AgusFoundation/aguscoin_3.0/)
+
 ### Linux (Debian/Ubuntu/Mint)
 
 ##### Prerequisites
